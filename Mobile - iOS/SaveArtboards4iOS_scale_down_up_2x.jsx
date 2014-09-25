@@ -9,6 +9,7 @@ var document = app.activeDocument;
 if (document && folder) {
 	saveToRes(50, "");
 	saveToRes(100, "@2x");
+	saveToRes(150, "@3x");
 }
 
 function saveToRes(scaleTo, densitySuffix) {

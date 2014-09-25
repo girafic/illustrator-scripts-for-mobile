@@ -17,6 +17,7 @@ if (document && folder) {
 
 	saveToRes(100, "", xyScale);
 	saveToRes(200, "@2x", xyScale);
+	saveToRes(300, "@3x", xyScale);
 }
 
 function saveToRes(scaleTo, densitySuffix, xyScale) {
